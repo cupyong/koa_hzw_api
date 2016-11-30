@@ -1,0 +1,43 @@
+{
+  "name": "koa_hzw_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start":"gulp serve",
+    "dev": "node ./src/index.js",
+    "cra": "node crawler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cupyong/koa_hzw_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cupyong/koa_hzw_api/issues"
+  },
+  "homepage": "https://github.com/cupyong/koa_hzw_api#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "cheerio": "0.18.0",
+    "co": "^4.6.0",
+    "generic-pool": "2.1.1",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "iconv": "*",
+    "iconv-lite": "0.4.4",
+    "jschardet": "1.1.0",
+    "jsdom": "^9.8.3",
+    "koa": "^1.2.4",
+    "koa-bodyparser": "^2.2.0",
+    "koa-compose": "^2.5.1",
+    "koa-cors": "0.0.16",
+    "koa-router": "^5.4.0",
+    "lodash": "^4.16.6",
+    "mongoose": "^4.6.6",
+    "request": "2.42.0",
+    "thunkify": "^2.1.2"
+  }
+}
