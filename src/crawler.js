@@ -149,17 +149,21 @@ var startCrawler = new crawler({
     }
 });
 
-
+//第一次 打开 start
 //分类抓取
-// startCrawler.queue({
-//     uri:"http://m.hc360.com/info/",
-//     type:1 
-// })
 
+// start()
+function start() {
+    startCrawler.queue({
+    uri:"http://m.hc360.com/info/",
+    type:1
+  })
+}
+
+//第二次 打开 startList
 //抓取内容
 
 // startList()
-
 var start = Date.now();
 console.log('当前时间:' + start);
 
@@ -194,7 +198,9 @@ function searchDetail(modal,i) {
     },i*1000*10)
 }
 
+//第三次 打开 startDetail
 //抓取详情
+
 // startDetail();
 function startDetail() {
     models.content.find({},function (err,result) {
