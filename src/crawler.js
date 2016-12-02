@@ -194,15 +194,8 @@ function searchDetail(modal,i) {
     },i*1000*10)
 }
 
-// startCrawler.queue({
-//     uri:'http://m.hc360.com/info-ep/list/001022-001-004-1.html',
-//     type:3,
-//     level_first:'583d4ef6dfc7aa5088d26206',
-//     level_second:'583d4ef5dfc7aa5088d261f0'
-// })
-
 //抓取详情
-startDetail();
+// startDetail();
 function startDetail() {
     models.content.find({},function (err,result) {
         for(let i=0;i<result.length;i++){
